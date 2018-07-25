@@ -4,6 +4,7 @@
   "description": "Simple plataforma de IoT - Modulo de BBDD",
   "main": "index.js",
   "scripts": {
+    "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard"
   },
   "repository": {
@@ -21,6 +22,7 @@
     "standart": "^6.1.0"
   },
   "dependencies": {
+    "debug": "^3.1.0",
     "pg": "^7.4.3",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.38.0"
