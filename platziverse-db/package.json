@@ -1,0 +1,23 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "Simple plataforma de IoT - Modulo de BBDD",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanJoMh09/IoTSample.git"
+  },
+  "author": "Juan Jose Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanJoMh09/IoTSample/issues"
+  },
+  "homepage": "https://github.com/JuanJoMh09/IoTSample#readme",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "standart": "^6.1.0"
+  }
+}
