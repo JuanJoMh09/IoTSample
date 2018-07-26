@@ -21,6 +21,8 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "nyc": "^12.0.2",
+    "proxyquire": "^2.0.1",
+    "sinon": "^6.1.4",
     "sqlite3": "^4.0.2",
     "standard": "^11.0.1",
     "standart": "^6.1.0"
