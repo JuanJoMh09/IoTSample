@@ -1,14 +1,13 @@
 'use strict'
 
 const debug = require('debug')('platziverse:db:setup')
-const inquirer = require('inquirer')//modulo para mensajes en consola
-const chalk = require('chalk') //modulo para dar color a los textos, con la funcion template de EM6
+const inquirer = require('inquirer')// modulo para mensajes en consola
+const chalk = require('chalk') // modulo para dar color a los textos, con la funcion template de EM6
 const db = require('./')
 
 const prompt = inquirer.createPromptModule()
 
 async function setup () {
-
   const answer = await prompt([
     {
       type: 'confirm',
